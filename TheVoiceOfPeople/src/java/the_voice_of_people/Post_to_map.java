@@ -62,7 +62,7 @@ public class Post_to_map extends HttpServlet{
 			
                     Class.forName("com.mysql.jdbc.Driver");
                     String category = post_category.toLowerCase();
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","197056");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","********");
                     Statement connect = con.createStatement();
                     Statement connect2 = con.createStatement();
 
