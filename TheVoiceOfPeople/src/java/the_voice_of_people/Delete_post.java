@@ -44,7 +44,7 @@ public class Delete_post extends HttpServlet{
 		try {
 			
                     Class.forName("com.mysql.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","197056");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","********");
                     Statement connect = con.createStatement();
                    
                     String querry = "delete from post where ID = '"+post_id+"'";
