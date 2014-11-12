@@ -41,7 +41,7 @@ public class Login extends HttpServlet{
             }
 	    try {
 			Connection con;
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","197056");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","********");
 			Statement connect = con.createStatement();
 			
 			String querry = "select * from user where email='" + e_mail+"'";
