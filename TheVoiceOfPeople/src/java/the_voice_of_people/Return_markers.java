@@ -37,7 +37,7 @@ public class Return_markers extends HttpServlet{
             }
 	    try {
                 Connection con;
-                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","197056");
+                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","********");
 
                 Statement connect1 = con.createStatement();
                 String post_id=null;
