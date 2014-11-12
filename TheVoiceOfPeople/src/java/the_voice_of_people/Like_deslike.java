@@ -37,7 +37,7 @@ public class Like_deslike extends HttpServlet{
             try {
 
                 Class.forName("com.mysql.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","197056");
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","********");
 
                 Statement connect1 = con.createStatement();
                 Statement connect2 = con.createStatement();
