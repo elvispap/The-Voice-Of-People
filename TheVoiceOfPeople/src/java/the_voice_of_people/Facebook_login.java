@@ -99,7 +99,7 @@ public class Facebook_login extends HttpServlet {
             email = json.getString("email");
 
             Connection con;
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","197056");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","********");
             Statement connect = con.createStatement();
 
             String country = ""; 
