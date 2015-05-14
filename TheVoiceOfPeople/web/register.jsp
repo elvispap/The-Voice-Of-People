@@ -16,7 +16,7 @@
     }
 
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","197056");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","*****");
     Statement connect = con.createStatement();
     String querry1 = "select * from user where email='" + e_mail + "'";
     ResultSet  qr = connect.executeQuery(querry1);
