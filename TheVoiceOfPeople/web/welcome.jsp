@@ -15,8 +15,6 @@
         <link type="text/css" rel="stylesheet" href="css/animations.css">
         <link href="css/hover.css" type="text/css" rel="stylesheet"/>
         
-        
-        
         <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true" type="text/javascript"></script> 
         <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
         <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/src/markerclusterer.js"></script>
@@ -51,10 +49,6 @@
                             <option value="Politics">Politics</option>
                             <option value="Other">Other</option>
                         </select> <br/>
-                        <!--                <form id="form1">
-                                            <input id="post_image" type="file" name="post_image" size="10"/>
-                                            <button id="uploadBtn" type="Submit" class="button" onClick="performAjaxSubmit()"> Upload </button>
-                                        </form>-->
                     </div>
                     <div class='form_input'>
                         <input class='post_input' id="post_address" type="text" value="" placeholder="Where you want to post ?" size="35" required> 
