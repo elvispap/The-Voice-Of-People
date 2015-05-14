@@ -8,7 +8,7 @@
 <%@page import="java.sql.Connection"%>
 <%
 Class.forName("com.mysql.jdbc.Driver");
-Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","197056");
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/3w","root","*****");
 Statement connect1 = con.createStatement();
 Statement connect2 = con.createStatement();
 Statement connect3 = con.createStatement();
@@ -113,7 +113,7 @@ Statement connect4 = con.createStatement();
         </div>
 
         <div id="footer">
-            <span style="font-size:12px">©</span>
+            <span style="font-size:12px">Â©</span>
             2014 Designed and Developed by <a class="company_logo" href="http://codenozee.com/">Codenozee</a>
         </div>   
     </div>
